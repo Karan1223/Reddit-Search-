@@ -1,7 +1,10 @@
 # Reddit-Search-
 Get data using the Reddit API. Using keywords, access data from Reddit, Subreddits, and comments using the Reddit API.
+
 Step 1: Explore searching on reddit api : Explore searching/extracting data from subreddit and its comments.
+
 Step 2: Explore using pushshift API in order to search on comments and subreddits
+
 Step 3: Program which gets two user inputs: the ‘post title’ and the ‘subreddit’.
 Then it displays the top 3 subreddit (with highest no of subscribers) and the 3 top recent (published_date)
 posts in each subreddit
