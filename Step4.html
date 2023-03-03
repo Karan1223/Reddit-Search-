@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!--  /*********************************************************************************
+    * ITC5202 – Project
+    * I declare that this assignment is my own work in accordance with Humber Academic Policy. 
+    * No part of this assignment has been copied manually or electronically from any other source
+    * (including web sites) or distributed to other students.
+    * 
+    * Group member Name: Karan Punjabi & Abhi Priyadarshi Student IDs: N01514624 & N01513842 Date: 09-08-2022
+    
+    ********************************************************************************/ -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Step 4</title>
+
+    <style>
+        body
+        {
+            background-color: beige;
+        }
+        .tb
+        {
+            margin-bottom: -10px;
+        }
+        #f
+        {
+            margin-left: 30px;
+            margin-top: 10px;
+            padding: -15px;
+        }
+    </style>
+
+    <!--Step 1: Add jQuery Library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     
+    <!--Step2: Start a jQery Block-->
+    <script>
+        $(document).ready(function () {
+            $('#btnSearch').click(function () {
+                var result = $("#search").val();
+                var date = $('#Sdate').val();
+                var sortValue = $('input[name="sort"]:checked').val();
+                var limit = $('#limit').val();
+
+                if(result=="" || date=="" || sortValue == "" || limit =="")
+                {
+                    alert("Error. Search field cannot be empty.");
+                }
+                else
+                {
+                output = "<div class='mainouter'>";
+                output += "<div class='row'>";
+               //fetch(`https://api.pushshift.io/reddit/search/submission/?after=${date}&q=${result}&limit=${limit}&sort=${sortValue}`)
+                
+                fetch(`https://api.pushshift.io/reddit/search/submission/?after=${date}&q=${result}&limit=${limit}`)
+                    .then(res => {
+                        return res.json();
+                    })
+                    .then(function (data) {
+                        console.log(data)
+                        for (let i = 0; i < data.data.length; i++) {
+                            let image = data.data[i].preview ?
+                        data.data[i].preview.images[0].source.url :
+                        'https://cdn.comparitech.com/wp-content/uploads/2017/08/reddit-1.jpg';
+
+                        var reddit = "https://www.reddit.com";
+                        var link = data.data[i].permalink;
+                        var url = reddit+link;
+                        if (i % 3 == 0) 
+                        {
+                            output += "</div><div class='row'>";
+                        }
+                        output += `
+                    <div class="col-sm-4">
+                        <div class="card text-right">
+                            <img class="card-img-top" src="${image}" alt="Card image cap" height=200px width=300px>
+                            <div class="card-body">
+                                 <h5 class="card-title">${data.data[i].title}</h5>
+                                <a href="${url}" target="_blank " class="btn btn-primary">Read More</a><br>
+                                <span class="badge badge-secondary">Subreddit: ${data.data[i].subreddit}</span><br>
+                                <span class="badge badge-dark">Score: ${data.data[i].score}</span>
+                            </div>
+                        </div>
+                    </div>`;
+                            
+                        }
+                        output += "</div>";
+                        document.getElementById("locs").innerHTML = output;
+                    })
+                    .catch(error =>
+                    {
+                        console.log("Error Accessing Api");
+                    });
+            }});
+        });
+    </script>
+</head>
+
+<body>
+    <div id="f">
+        <h4><label for="search">Search Reddit</label><br></h4>
+        <input class="tb" type="text" id="search" name="search"><br>
+        
+        <label for="sort">Sort By:</label>
+        <input type="radio" id="rel" name="sort" value="relevance">
+        <label for="html">Relevance</label>
+        <input type="radio" id="lat" name="sort" value="new">
+        <label for="css">Latest</label><br>
+
+        <h4><label for="Sdate">After date</label><br></h4>
+        <input class="tb" type="text" id="Sdate" name="date"><br><br>
+
+        
+        <h4><label for="limit">Limit:</label><br></h4>
+        <input class="tb" type="text" id="limit" name="limit"><br>
+        <br><input type="submit" value="Search" id="btnSearch">
+
+    <p id="locs"></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+    xmlns:media="http://search.yahoo.com/mrss/">
+    <category term="programming" label="r/programming"/>
+    <updated>2022-08-06T02:31:50+00:00</updated>
+    <icon>https://www.redditstatic.com/icon.png/</icon>
+    <id>/r/programming.rss</id>
+    <link rel="self" href="https://www.reddit.com/r/programming.rss" type="application/atom+xml" />
+    <link rel="alternate" href="https://www.reddit.com/r/programming" type="text/html" />
+    <logo>https://b.thumbs.redditmedia.com/2rTE46grzsr-Ll3Q.png</logo>
+    <subtitle>Computer Programming</subtitle>
+    <title>programming</title>
+    <entry>
+        <author>
+            <name>/u/mareek</name>
+            <uri>https://www.reddit.com/user/mareek</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/mareek&quot;&gt; /u/mareek &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://mobile.twitter.com/gitlab/status/1555325376687226883&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wgp1ia/gitlab_will_finally_keep_old_repository_alive_but/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wgp1ia</id>
+        <link href="https://www.reddit.com/r/programming/comments/wgp1ia/gitlab_will_finally_keep_old_repository_alive_but/" />
+        <updated>2022-08-05T07:31:15+00:00</updated>
+        <published>2022-08-05T07:31:15+00:00</published>
+        <title>GitLab will finally keep old repository alive but will move them to a slower storage</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/Tim_Wilson</name>
+            <uri>https://www.reddit.com/user/Tim_Wilson</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/Tim_Wilson&quot;&gt; /u/Tim_Wilson &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://walkthrough.dev&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wh9l78/tired_of_giving_the_same_codebase_walkthroughs_to/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wh9l78</id>
+        <link href="https://www.reddit.com/r/programming/comments/wh9l78/tired_of_giving_the_same_codebase_walkthroughs_to/" />
+        <updated>2022-08-05T23:29:34+00:00</updated>
+        <published>2022-08-05T23:29:34+00:00</published>
+        <title>Tired of giving the same codebase walkthroughs to every new developer, I created a tool for building step-by-step annotated code walkthroughs. Feedback welcome!</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/BitPax</name>
+            <uri>https://www.reddit.com/user/BitPax</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/BitPax&quot;&gt; /u/BitPax &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Terry_A._Davis&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wg8pam/terry_davis_an_extremely_talented_programmer_who/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wg8pam</id>
+        <link href="https://www.reddit.com/r/programming/comments/wg8pam/terry_davis_an_extremely_talented_programmer_who/" />
+        <updated>2022-08-04T18:37:19+00:00</updated>
+        <published>2022-08-04T18:37:19+00:00</published>
+        <title>Terry Davis, an extremely talented programmer who was unfortunately diagnosed with schizophrenia, made an entire operating system in a language he made by himself, then compiled everything to machine code with a compiler he made himself.</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/viebel</name>
+            <uri>https://www.reddit.com/user/viebel</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/viebel&quot;&gt; /u/viebel &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/structuredClone&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wgwwhj/a_standard_way_to_deeply_clone_an_object_in/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wgwwhj</id>
+        <link href="https://www.reddit.com/r/programming/comments/wgwwhj/a_standard_way_to_deeply_clone_an_object_in/" />
+        <updated>2022-08-05T14:28:06+00:00</updated>
+        <published>2022-08-05T14:28:06+00:00</published>
+        <title>A standard way to deeply clone an Object in JavaScript</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/magenta_placenta</name>
+            <uri>https://www.reddit.com/user/magenta_placenta</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/magenta_placenta&quot;&gt; /u/magenta_placenta &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://github.com/stemrollerapp/stemroller&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wh74so/stemroller_the_first_free_app_which_enables_you/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wh74so</id>
+        <link href="https://www.reddit.com/r/programming/comments/wh74so/stemroller_the_first_free_app_which_enables_you/" />
+        <updated>2022-08-05T21:38:40+00:00</updated>
+        <published>2022-08-05T21:38:40+00:00</published>
+        <title>StemRoller - the first free app which enables you to separate vocal and instrumental stems from any song with a single click! StemRoller uses Facebook's state-of-the-art Demucs algorithm for demixing songs and integrates search results from YouTube</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/Alexander_Selkirk</name>
+            <uri>https://www.reddit.com/user/Alexander_Selkirk</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/Alexander_Selkirk&quot;&gt; /u/Alexander_Selkirk &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.tweag.io/blog/2022-07-14-taming-unix-with-nix/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wh31ku/nix_taming_unix_with_functional_programming/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wh31ku</id>
+        <link href="https://www.reddit.com/r/programming/comments/wh31ku/nix_taming_unix_with_functional_programming/" />
+        <updated>2022-08-05T18:43:43+00:00</updated>
+        <published>2022-08-05T18:43:43+00:00</published>
+        <title>Nix – taming Unix with functional programming</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/mrharold_finch</name>
+            <uri>https://www.reddit.com/user/mrharold_finch</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/mrharold_finch&quot;&gt; /u/mrharold_finch &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://github.com/ValveSoftware/Proton/issues/6051&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wgzemx/glibc_update_broke_eac_for_most_games_that_use_it/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wgzemx</id>
+        <link href="https://www.reddit.com/r/programming/comments/wgzemx/glibc_update_broke_eac_for_most_games_that_use_it/" />
+        <updated>2022-08-05T16:11:43+00:00</updated>
+        <published>2022-08-05T16:11:43+00:00</published>
+        <title>GLIBC update broke EAC for most games that use it</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/pavel_v</name>
+            <uri>https://www.reddit.com/user/pavel_v</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/pavel_v&quot;&gt; /u/pavel_v &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://thephd.dev/c23-is-coming-here-is-what-is-on-the-menu&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wgn2cj/c23_is_finished_here_is_what_is_on_the_menu/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wgn2cj</id>
+        <link href="https://www.reddit.com/r/programming/comments/wgn2cj/c23_is_finished_here_is_what_is_on_the_menu/" />
+        <updated>2022-08-05T05:32:56+00:00</updated>
+        <published>2022-08-05T05:32:56+00:00</published>
+        <title>C23 is Finished: Here is What is on the Menu</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/toxait</name>
+            <uri>https://www.reddit.com/user/toxait</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/toxait&quot;&gt; /u/toxait &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://github.com/LGUG2Z/helix-vim&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/whbmuv/helixvim_a_vimlike_configuration_for_helix/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_whbmuv</id>
+        <link href="https://www.reddit.com/r/programming/comments/whbmuv/helixvim_a_vimlike_configuration_for_helix/" />
+        <updated>2022-08-06T01:08:55+00:00</updated>
+        <published>2022-08-06T01:08:55+00:00</published>
+        <title>Helix-Vim: A Vim-like configuration for Helix</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/LloydAtkinson</name>
+            <uri>https://www.reddit.com/user/LloydAtkinson</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/LloydAtkinson&quot;&gt; /u/LloydAtkinson &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.lloydatkinson.net/posts/2022/should-you-squash-merge-or-merge-commit/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/whav9l/should_you_squash_merge_or_merge_commit/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_whav9l</id>
+        <link href="https://www.reddit.com/r/programming/comments/whav9l/should_you_squash_merge_or_merge_commit/" />
+        <updated>2022-08-06T00:30:53+00:00</updated>
+        <published>2022-08-06T00:30:53+00:00</published>
+        <title>Should You Squash Merge or Merge Commit?</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/krystalgamer</name>
+            <uri>https://www.reddit.com/user/krystalgamer</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/krystalgamer&quot;&gt; /u/krystalgamer &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://krystalgamer.github.io/stem-player-emulator/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wh5r1h/kanye_wests_stem_player_an_engineering_disaster/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wh5r1h</id>
+        <link href="https://www.reddit.com/r/programming/comments/wh5r1h/kanye_wests_stem_player_an_engineering_disaster/" />
+        <updated>2022-08-05T20:39:37+00:00</updated>
+        <published>2022-08-05T20:39:37+00:00</published>
+        <title>Kanye West's Stem Player - An engineering disaster</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/Specific-Bill</name>
+            <uri>https://www.reddit.com/user/Specific-Bill</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/Specific-Bill&quot;&gt; /u/Specific-Bill &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://retrocoders.phatcode.net/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/whczq2/retro_programming_forumcommunity/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_whczq2</id>
+        <link href="https://www.reddit.com/r/programming/comments/whczq2/retro_programming_forumcommunity/" />
+        <updated>2022-08-06T02:17:54+00:00</updated>
+        <published>2022-08-06T02:17:54+00:00</published>
+        <title>Retro Programming Forum/Community</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/dominik-braun</name>
+            <uri>https://www.reddit.com/user/dominik-braun</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/dominik-braun&quot;&gt; /u/dominik-braun &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://dominikbraun.io/blog/visualizing-graph-structures-using-go-and-graphviz&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wgpe8y/visualizing_graph_structures_using_go_and_graphviz/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wgpe8y</id>
+        <link href="https://www.reddit.com/r/programming/comments/wgpe8y/visualizing_graph_structures_using_go_and_graphviz/" />
+        <updated>2022-08-05T07:53:54+00:00</updated>
+        <published>2022-08-05T07:53:54+00:00</published>
+        <title>Visualizing graph structures using Go and Graphviz</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/AgitatedRepository</name>
+            <uri>https://www.reddit.com/user/AgitatedRepository</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/AgitatedRepository&quot;&gt; /u/AgitatedRepository &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://devinterrupted.substack.com/p/how-a-trained-therapist-diagnoses&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wgd0u3/too_many_companies_treat_dev_burnout_like_a/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wgd0u3</id>
+        <link href="https://www.reddit.com/r/programming/comments/wgd0u3/too_many_companies_treat_dev_burnout_like_a/" />
+        <updated>2022-08-04T21:37:40+00:00</updated>
+        <published>2022-08-04T21:37:40+00:00</published>
+        <title>&quot;Too many companies treat dev burnout like a 24-hour flu where they can just send a person home or tell them to take the day off.&quot; A trained therapist-turned-engineer reveals how she diagnoses healthy dev teams from ones doomed to fail.</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/feross</name>
+            <uri>https://www.reddit.com/user/feross</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/feross&quot;&gt; /u/feross &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://docusaurus.io/blog/2022/08/01/announcing-docusaurus-2.0&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wgy2ne/announcing_docusaurus_20/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wgy2ne</id>
+        <link href="https://www.reddit.com/r/programming/comments/wgy2ne/announcing_docusaurus_20/" />
+        <updated>2022-08-05T15:16:22+00:00</updated>
+        <published>2022-08-05T15:16:22+00:00</published>
+        <title>Announcing Docusaurus 2.0</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/Techman-</name>
+            <uri>https://www.reddit.com/user/Techman-</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/Techman-&quot;&gt; /u/Techman- &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.theregister.com/2022/08/04/gitlab_data_retention_policy/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wfr8ps/gitlab_plans_to_delete_dormant_projects_from_free/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wfr8ps</id>
+        <link href="https://www.reddit.com/r/programming/comments/wfr8ps/gitlab_plans_to_delete_dormant_projects_from_free/" />
+        <updated>2022-08-04T04:04:27+00:00</updated>
+        <published>2022-08-04T04:04:27+00:00</published>
+        <title>GitLab plans to delete dormant projects from free accounts: Hopes to save a quarter of hosting costs by binning repos that haven't been touched for a year</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/emanresu_2017</name>
+            <uri>https://www.reddit.com/user/emanresu_2017</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/emanresu_2017&quot;&gt; /u/emanresu_2017 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.christianfindlay.com/blog/device-net-project-status&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/whawok/devicenet_project_status/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_whawok</id>
+        <link href="https://www.reddit.com/r/programming/comments/whawok/devicenet_project_status/" />
+        <updated>2022-08-06T00:32:49+00:00</updated>
+        <published>2022-08-06T00:32:49+00:00</published>
+        <title>Device.Net Project Status</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/Iris-carrot</name>
+            <uri>https://www.reddit.com/user/Iris-carrot</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/Iris-carrot&quot;&gt; /u/Iris-carrot &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://github.com/toeverything/AFFiNE&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wgo78u/affine_is_the_nextgen_knowledge_base_to_replace/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wgo78u</id>
+        <link href="https://www.reddit.com/r/programming/comments/wgo78u/affine_is_the_nextgen_knowledge_base_to_replace/" />
+        <updated>2022-08-05T06:38:34+00:00</updated>
+        <published>2022-08-05T06:38:34+00:00</published>
+        <title>AFFiNE is the Next-Gen Knowledge Base to Replace Notion &amp; Miro. Open-source, privacy-first, and always free.</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/SvenViking</name>
+            <uri>https://www.reddit.com/user/SvenViking</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/SvenViking&quot;&gt; /u/SvenViking &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=I845O57ZSy4&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wg9j9t/john_carmack_interview_doom_quake_vr_agi/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wg9j9t</id>
+        <link href="https://www.reddit.com/r/programming/comments/wg9j9t/john_carmack_interview_doom_quake_vr_agi/" />
+        <updated>2022-08-04T19:11:05+00:00</updated>
+        <published>2022-08-04T19:11:05+00:00</published>
+        <title>John Carmack interview: Doom, Quake, VR, AGI, Programming, Video Games, and Rockets</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/Old_Lavishness7140</name>
+            <uri>https://www.reddit.com/user/Old_Lavishness7140</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/Old_Lavishness7140&quot;&gt; /u/Old_Lavishness7140 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.udemyfreecours.com/2022/08/learn-how-to-program-in-easy-and.html&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wh96jg/learn_how_to_program_in_an_easy_and_interactive/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wh96jg</id>
+        <link href="https://www.reddit.com/r/programming/comments/wh96jg/learn_how_to_program_in_an_easy_and_interactive/" />
+        <updated>2022-08-05T23:10:49+00:00</updated>
+        <published>2022-08-05T23:10:49+00:00</published>
+        <title>Learn how to program in an easy and interactive way</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/devoopseng</name>
+            <uri>https://www.reddit.com/user/devoopseng</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/devoopseng&quot;&gt; /u/devoopseng &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://rootly.com/blog/the-rogers-outage-of-2022-3-crucial-takeaways-for-sres&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wh2hhw/the_rogers_outage_of_2022_leaving_millions_of/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wh2hhw</id>
+        <link href="https://www.reddit.com/r/programming/comments/wh2hhw/the_rogers_outage_of_2022_leaving_millions_of/" />
+        <updated>2022-08-05T18:19:43+00:00</updated>
+        <published>2022-08-05T18:19:43+00:00</published>
+        <title>The Rogers Outage of 2022 - Leaving Millions of Canadians Offline</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/andrewfromx</name>
+            <uri>https://www.reddit.com/user/andrewfromx</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/andrewfromx&quot;&gt; /u/andrewfromx &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://news.ycombinator.com/item?id=32362359&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wh7fkm/what_are_other_places_for_programminghelp_where/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wh7fkm</id>
+        <link href="https://www.reddit.com/r/programming/comments/wh7fkm/what_are_other_places_for_programminghelp_where/" />
+        <updated>2022-08-05T21:51:40+00:00</updated>
+        <published>2022-08-05T21:51:40+00:00</published>
+        <title>What are other places for “programminghelp” where posting full code is allowed?</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/artfultomcat</name>
+            <uri>https://www.reddit.com/user/artfultomcat</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/artfultomcat&quot;&gt; /u/artfultomcat &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://github.com/artfultom/vecenta&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wh203l/github_artfultomvecenta_rpc_framework/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wh203l</id>
+        <link href="https://www.reddit.com/r/programming/comments/wh203l/github_artfultomvecenta_rpc_framework/" />
+        <updated>2022-08-05T17:59:56+00:00</updated>
+        <published>2022-08-05T17:59:56+00:00</published>
+        <title>GitHub - artfultom/vecenta: RPC Framework</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/RegianeFolter</name>
+            <uri>https://www.reddit.com/user/RegianeFolter</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/RegianeFolter&quot;&gt; /u/RegianeFolter &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://www.octobot.io/blog/boot-camp/&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wh0v9y/a_junior_devs_boot_camp/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wh0v9y</id>
+        <link href="https://www.reddit.com/r/programming/comments/wh0v9y/a_junior_devs_boot_camp/" />
+        <updated>2022-08-05T17:12:33+00:00</updated>
+        <published>2022-08-05T17:12:33+00:00</published>
+        <title>A Junior Devs Boot Camp</title>
+    </entry>
+    <entry>
+        <author>
+            <name>/u/myroon5</name>
+            <uri>https://www.reddit.com/user/myroon5</uri>
+        </author>
+        <category term="programming" label="r/programming"/>
+        <content type="html">&amp;#32; submitted by &amp;#32; &lt;a href=&quot;https://www.reddit.com/user/myroon5&quot;&gt; /u/myroon5 &lt;/a&gt; &lt;br/&gt; &lt;span&gt;&lt;a href=&quot;https://blog.chromium.org/2022/08/chrome-105-beta-custom-highlighting.html&quot;&gt;[link]&lt;/a&gt;&lt;/span&gt; &amp;#32; &lt;span&gt;&lt;a href=&quot;https://www.reddit.com/r/programming/comments/wh5mbe/chrome_105_beta_custom_highlighting_fetch_upload/&quot;&gt;[comments]&lt;/a&gt;&lt;/span&gt;</content>
+        <id>t3_wh5mbe</id>
+        <link href="https://www.reddit.com/r/programming/comments/wh5mbe/chrome_105_beta_custom_highlighting_fetch_upload/" />
+        <updated>2022-08-05T20:33:59+00:00</updated>
+        <published>2022-08-05T20:33:59+00:00</published>
+        <title>Chrome 105 Beta: Custom Highlighting, Fetch Upload Streaming, and More</title>
+    </entry>
+</feed>

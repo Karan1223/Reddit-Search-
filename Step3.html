@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- /*********************************************************************************
+* ITC5202 – Project
+* I declare that this assignment is my own work in accordance with Humber Academic Policy. 
+* No part of this assignment has been copied manually or electronically from any other source
+* (including web sites) or distributed to other students.
+* 
+* Group member Name: Karan Punjabi, Abhi Priyadarshi Student IDs: N01514624, N01513842 Date: 08/09/2022
+*
+*
+********************************************************************************/  -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 3</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+
+        h2 {
+            color: black;
+        }
+        table{
+            width: 100%;
+        }
+        th{
+            background-color: darkgray;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Enter a subreddit</h2>
+    <input type="text">
+    <h2><label for="search">Enter a post Title</label><br></h2>
+    <input class="tb" type="text" id="search" name="search"><br><br>
+    <button>search</button>
+    <p id="locs"></p>
+    <script>
+        $('button').on('click', () => {
+            var subreddit = $('input').val();
+            var title = $("#search").val();
+            $.getJSON(`https://api.pushshift.io/reddit/search/submission/?q=${title}&subreddit=${subreddit}&order=desc&size=3`, (data) => {
+                console.log(data)
+
+                let output = "<table border='1'>";
+                output += "<tr>";
+                output += "<th>" + "Title" + "</th>";
+                output += "<th>" + "Author" + "</th>";
+                output += "<th>" + "Subscribers" + "</th>";
+
+                output += "<th>" + "Score" + "</th>";
+                output += "<th>" + "Flair" + "</th>";
+                output += "<th>" + "Image" + "</th>";
+                output += "</tr>";
+                for (let i = 0; i < data.data.length; i++) {
+                    // console.log(data);
+                    let image = data.data[i].preview ?
+                        data.data[i].preview.images[0].source.url :
+                        'https://cdn.comparitech.com/wp-content/uploads/2017/08/reddit-1.jpg';
+                    output += "<tr>"
+                    output += "<td>" + data.data[i].title + "</td>";
+                    output += "<td>" + data.data[i].author + "</td>";
+                    output += "<td>" + data.data[i].subreddit_subscribers + "</td>";
+
+                    output += "<td>" + data.data[i].score + "</td>";
+                    output += "<td>" + data.data[i].link_flair_text + "</td>";
+                    output += "<td>" + "<img src='" + image + "' height=50px weight=50px/>" + "</td>";
+
+                    output += "</tr>";
+
+
+                }
+                output += "</table>";
+                document.getElementById("locs").innerHTML = output;
+            });
+
+        });
+
+    </script>
+</body>
+
+</html>

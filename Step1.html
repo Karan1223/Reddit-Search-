@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+  <!--  /*********************************************************************************
+    * ITC5202 – Project
+    * I declare that this assignment is my own work in accordance with Humber Academic Policy. 
+    * No part of this assignment has been copied manually or electronically from any other source
+    * (including web sites) or distributed to other students.
+    * 
+    * Group member Name: Karan Punjabi & Abhi Priyadarshi Student IDs: N01514624 & N01513842 Date: 09-08-2022
+    
+    ********************************************************************************/ -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 1</title>
+    <style>
+        body
+        {
+            background-color: beige;
+        }
+        th
+        {
+            background-color: khaki;
+            color: olivedrab;
+        }
+    </style>
+
+         <!--Step 1: Add jQuery Library-->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+         <!--Step 2: Start jQuery block-->
+         <script>
+             $(document).ready(function()
+             {
+                fetch(`https://www.reddit.com/r/pics.json?limit=100`)
+                .then(res => {
+                    console.log(res);
+                            return res.json();
+                        })
+                .then(function (data) {
+                console.log(data);
+                let output = "<table border='1'>";
+                output += "<tr>";
+                output += "<th>" + "Title" + "</th>";
+                output += "<th>" + "Author" + "</th>";
+                output += "<th>"+"Image"+"</th>";
+                output += "<th>"+"URL"+"</th>";
+                output += "<th>"+"Score"+"</th>";
+                output += "<th>"+"Flair"+"</th>";
+                output += "</tr>";
+                data.data.children.sort((a,b) => (a.data.title > b.data.title) ? 1 : ((b.data.title > a.data.title) ? -1 : 0))
+                $.each(data.data.children, function(i,item)
+                {
+                    console.log(item);
+                    output += "<tr>"
+                    output += "<td>"+item.data.title+"</td>";
+                    output += "<td>"+item.data.author+"</td>";
+                    output += "<td>"+"<img src='"+item.data.thumbnail+"'/>"+"</td>";
+                    output += "<td>"+"<a href='"+item.data.url+"'>"+item.data.url+"</a>"+"</td>";                    
+                    
+                    output += "<td>"+item.data.score+"</td>";
+                    output += "<td>"+item.data.link_flair_text+"</td>";
+                    
+                    
+                    
+                    output += "</tr>";
+                    // $("#locs").append(item.data.title,"<br>");
+    
+                });
+                
+    
+                output += "</table>";
+                document.getElementById("locs").innerHTML = output;
+            })
+            .catch(error =>
+            {
+                console.log("Error Accessing Api");
+            });
+        });
+             
+         </script>
+</head>
+<body>
+
+    <div id="locs"></div>
+
+     
+</body>
+</html>

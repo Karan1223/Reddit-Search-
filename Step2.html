@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <!--  /*********************************************************************************
+    * ITC5202 – Project
+    * I declare that this assignment is my own work in accordance with Humber Academic Policy. 
+    * No part of this assignment has been copied manually or electronically from any other source
+    * (including web sites) or distributed to other students.
+    * 
+    * Group member Name: Karan Punjabi & Abhi Priyadarshi Student IDs: N01514624 & N01513842 Date: 09-08-2022
+    
+    ********************************************************************************/ -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 2</title>
+    <style>
+        body
+        {
+            background-color: beige;
+        }
+        th
+        {
+            background-color: khaki;
+            color: olivedrab;
+        }
+    </style>
+    <!--Step 1: Add jQuery Library-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     
+    <!--Step2: Start a jQery Block-->
+    <script>
+        $(document).ready(function () 
+        {
+            $('#btnSearch').click(function () 
+            {
+                var result = $("#search").val();
+
+                if(result=="")
+                {
+                    alert("Error. Search field cannot be empty.");
+                }
+                else
+                {
+                fetch(`https://api.pushshift.io/reddit/search/comment/?q=${result}&limit=100`) 
+                    .then(res => {
+                        return res.json();
+                    })
+                    .then(function (data) {
+                        console.log(data)
+                        let output = "<table border='1'> ";
+                        output += "<tr>";
+                        output += "<th>" + "Body" + "</th>";
+                        output += "<th>" + "Author" + "</th>";
+                        output += "<th>" + "Subreddit" + "</th>";
+                        output += "<th>" + "URL" + "</th>";
+                        output += "<th>" + "Score" + "</th>";
+                        output += "<th>" + "Flair" + "</th>";
+                        //output += "<th>" + "Image" + "</th>";
+                        output += "</tr>";
+                        data.data.sort((a,b) => (a.body > b.body) ? 1 : ((b.body > a.body) ? -1 : 0))
+                        for (let i = 0; i < data.data.length; i++) 
+                        {
+                            var reddit = "https://redd.it/";
+                            var link = data.data[i].link_id;
+                            var sublink = link.slice(3);
+                            var final = reddit+sublink;
+                           // console.log(final);
+
+                            output += "<tr>";
+                            output += "<td>" + data.data[i].body + "</td>";
+                            output += "<td>" + data.data[i].author + "</td>";
+                            output += "<td>" + data.data[i].subreddit + "</td>";
+                            output += "<td>"+"<a href='"+final+"'>"+final+"</a>"+"</td>"; 
+                            output += "<td>" + data.data[i].score + "</td>";
+                            output += "<td>" + data.data[i].author_flair_text + "</td>";
+                          //  output += "<td>" + data.data[i].permalink + "</td>";   
+                            output += "</tr>"
+                        }
+                        output += "</table>"
+                        document.getElementById("locs").innerHTML = output;
+                    })
+                    .catch(error =>
+                    {
+                        console.log("Error Accessing Api");
+                    });
+            }});
+        });
+    </script>
+</head>
+
+<body>
+    <h3>Search On Reddit: </h3>
+        <label for="search">Enter Keyword you wanna search:</label>
+        <input type="text" id="search" name="search"><br><br>
+        <input type="submit" value="Submit" id="btnSearch">
+
+    <p id="locs"></p>
+</body>
+</html>
